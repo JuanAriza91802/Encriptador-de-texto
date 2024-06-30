@@ -9,33 +9,35 @@
 <body>
     <header>
         <nav>
-            <img src="assets/logoAlura.png" alt="logoAlura">
+            <a href="#">
+                <img src="assets/logoAlura.png" alt="logoAlura"/>
+            </a>
         </nav>
     </header>
     <main class="contendor">
         <div class="encriptar">
             <textarea class="texto" id="texto"
-             cols="30" rows="10"></textarea>
+             cols="30" rows="10" placeholder="Ingresa tu texto aqui"></textarea>
         </div>
-        <div>
-            <p>terminos</p>
+        <div class="terminos">
+            <img src="" alt="aviso">
+            <p>solo letras minusculas y sin acento</p>
         </div>
         <div class="contenedor--btn">
             <button class="btn--encriptar" type="button">Encriptar</button>
             <button class="btn--desencriptar" type="button">Desencriptar</button>
         </div>
         <div class="desencritar">
-            <img class="imagen--muneco" src="" alt="logo--muñeco">
-            <div class="meensaje-encriptado">
+            <img class="imagen--muneco" src="assets/muñeco.png" alt="logo--muñeco">
+            <div class="mensaje-encriptado">
                 <h2  id="titulo-mensaje">Ningun mensaje fue encontrado</h2>
                 <p id="parrafo">
                     Ingrese el teexto que desees encriptar o desencriptar
                 </p>
-                <textarea class="mensaje" name="mensaje" id="mensajee" 
-                cols="30" rows="10"></textarea>
+                <!-- <textarea class="mensaje" name="mensaje" id="mensajee" 
+                cols="30" rows="10"></textarea> -->
             </div>
-        </div>
-        
+        </div>    
     </main>
     <footer></footer>
 </body>
