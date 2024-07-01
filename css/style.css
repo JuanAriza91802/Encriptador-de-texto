@@ -16,7 +16,7 @@
     height: 100vh;
     background: var(--color-primario);
 }
-.encriptar{}
+/* .encriptar{} */
 .texto{
     position: absolute;
     width:42% ;
@@ -162,3 +162,59 @@
     top: 15%;
 }
 /* footer */
+/* responsive query */
+@media (max-width: 57.5em){
+    .contendor {
+        display: flex;
+        flex-direction: row;
+    }
+    .encriptar{
+        width: 100%;
+    }
+    .texto{
+        width: 80%;
+        height: 60%;
+        left: 10%;
+        top: 5%;
+    }
+    .terminos{
+        width: 805;
+        left: 10%;
+        top: 67%;
+    }
+    .terminos p{
+        font-size: 16px;
+    }
+    .contenedor--btn{
+        width: 80%;
+        left: 10%;
+        top: 70%;
+    }
+    .btn--encriptar,
+    .btn--desencriptar{
+        width: 48%;
+        border-radius: 16px;
+    }
+    .btn--encriptar:hover,
+    .btn--desencriptar:hover{
+        margin: .3%;
+        width: 47.5%;
+        padding: 1.8%;
+    }
+    .desencritar{
+        width: 80%;
+        height: 15%;
+        left: 10%;
+        top: 80%;
+    }
+    .mensaje-encriptado{
+        width: 100%;
+        top: 5%;
+
+    }
+    .desencritar img{
+        top: 0;
+        display: none;
+        visibility: hidden;
+    }
+}
