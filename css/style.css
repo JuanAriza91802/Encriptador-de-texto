@@ -50,6 +50,10 @@
     left: 12%;
     top: 80%;
 }
+.terminos img{
+    width: 14px;
+    opacity: .8;
+}
 .terminos p{
     font-family: "Inter";
     font-style: normal;
